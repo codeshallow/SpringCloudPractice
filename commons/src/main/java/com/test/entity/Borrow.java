@@ -6,11 +6,11 @@ import lombok.Data;
  * @author qianyu
  * @title
  * @Package com.test.entity
- * @date 2022/5/4 01:03
+ * @date 2022/5/4 02:02
  */
 @Data
-public class User{
+public class Borrow {
+    int id;
     int uid;
-    String name;
-    String sex;
+    int bid;
 }
